@@ -27,5 +27,24 @@ Acessei o site [https://start.spring.io/ ](https://start.spring.io/ ) para gerar
 - **Solução encontrada:**
     - Desinstalação do postegreSQL
     - Download do postgreSQL
-    - Instalação seguindo o padrão
+    - Instalação instalação padrão não concluida
   
+### Criação do projecto-java "Novamente"
+
+- **Erro encontrado:**
+    - Após abrir a pasta do ficheiro base com o Intelij, e fazer o teste do localhost:8080, apresentava um erro diferente do not found, 404.
+- **Solução encontrada**
+    - Recriei o projecto base criando-o no Spring Initialzr,start.spring.io
+    - Gerou uma pasta zipada onde depois de estraida e inserida no directório plataforma-full-stack-portfolio, abri no Intelij
+    - Foi gerado um conjunto de ficheiro, sendo que as caracteristicas ou elementos do projecto podem ser consultadas no arquivo *pom.xml*
+    - uma vez que o projecto em java foi inserido no repositorio, tive a necessidade de actualiza-la no github, usando os seguintes comandos no terminal:
+        - git status : para verificar se há elementos novos a serem adicionados ao repositório.
+        - git add . : para adicionar a actualização ao repositorio.
+        - git commit -m "adicionar projecto-java Intelij e actualizar o progress-log" : para detalhar a actualização
+        - git push origin main : para enviar para o repositório remoto.
+
+- **Aprendizado**
+    - Usando a versão paga do Intelij, a criação do projecto base pode ser feita directamente na IDE ou no Initiaz, mas para as versões frees, como o community apenas no site.
+    - Já tendo o Docker desktop instalado no meu computador, não preciso instalar o PostgreSQL.
+
+
