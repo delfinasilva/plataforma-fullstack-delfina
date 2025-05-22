@@ -17,3 +17,15 @@ Acessei o site [https://start.spring.io/ ](https://start.spring.io/ ) para gerar
 ## Pontos a Melhorar
 
 - **Documentar o progresso em detalhes**: Tive diversas dificuldades durante o processo e não registrei todas, pois estava focado em resolver os problemas. Para próximos passos, é importante anotar cada etapa e solução encontrada para facilitar revisões futuras e compartilhamento do conhecimento.
+
+## DIA 3
+### Reinstalação PostgreSQL
+
+- **Erro encontrado:**
+    - Falha na autenticação ao logar usuário e senha.
+  
+- **Solução encontrada:**
+    - Desinstalação do postegreSQL
+    - Download do postgreSQL
+    - Instalação seguindo o padrão
+  
