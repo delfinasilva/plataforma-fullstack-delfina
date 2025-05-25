@@ -1,4 +1,4 @@
-# Resumo dos Aprendizados
+# Resumo das etapas de desenvolvimento
 
 ## DIA 1
 
@@ -46,5 +46,22 @@ Acessei o site [https://start.spring.io/ ](https://start.spring.io/ ) para gerar
 - **Aprendizado**
     - Usando a versão paga do Intelij, a criação do projecto base pode ser feita directamente na IDE ou no Initiaz, mas para as versões frees, como o community apenas no site.
     - Já tendo o Docker desktop instalado no meu computador, não preciso instalar o PostgreSQL.
+
+## Dia 4
+### Backend CRUD Funcional
+- **Criação da entidade : "Projecto"**
+  - id
+  - titulo
+  - descrição
+  - link
+  - tecnologias (String simples, por enquanto)
+ 
+- **Camadas** 
+  - model/Projecto.java
+  - repository/ProjectoRepository.java
+  - service/ProjectoService.java
+  - controller/ProjectoController.java
+
+**Aprendizado**
 
 
