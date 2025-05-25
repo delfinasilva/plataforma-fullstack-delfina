@@ -62,6 +62,17 @@ Acessei o site [https://start.spring.io/ ](https://start.spring.io/ ) para gerar
   - service/ProjectoService.java
   - controller/ProjectoController.java
 
-**Aprendizado**
+- **Aprendizado**
+  - Criou-se o arquivo docker-composer.yml na raíz do projecto.
+  - No terminal rodei docker compose up -d
+  - verifiquei se o container está rodando com o comando docker ps.
+
+- **Dificuladades**
+  - Não houveram sucessos nos testes
+  - o comando \.mvnw não passava nos testes.
+
+- **Solução encontrada** 
+  - Refazer o projecto.
+ 
 
 
